@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif
+}
+.container{
+    width:100vw;
+    min-height: 100vh;
+    background-color: #ced8ff;
+    transition: 0.7;
+}
+.container.dark{
+    background:#222;
+}
